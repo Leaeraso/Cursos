@@ -1,0 +1,15 @@
+.color{
+    /* Predeterminado */
+    color: tomato;
+    
+}
+
+.verde {
+    /* RGB / RGBA*/
+    color: rgb(60, 154, 99);
+}
+
+.celeste{
+    /* Hexadecimal */
+    color: #00cde1;
+}

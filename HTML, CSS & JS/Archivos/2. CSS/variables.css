@@ -1,0 +1,25 @@
+/* variable-color: peru; */
+
+/* Pseudoclase raiz*/
+:root {
+    --variable-color: peru;
+    --big: 50px;
+}
+
+h1 {
+    /* Llamada a la variable creada */
+    color: var(--variable-color, blue);
+}
+
+h2 {
+    color: var(--variable-color);
+}
+
+h3 {
+    color: var(--variable-color);
+    font-size: var(--big);
+}
+
+p {
+    color: var(--variable-color);
+}

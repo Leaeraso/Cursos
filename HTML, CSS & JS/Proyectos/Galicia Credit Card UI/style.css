@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 380px;
+    width: 620px;
+    background-color: #fe6e00;
+    border-radius: 24px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 250px;
+    height: 70px;
+    margin: 20px 0 10px 20px;
+}
+
+.chip {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.chip img {
+    width: 70px;
+    height: 50px;
+    margin: 0 15px 10px 23px;
+}
+
+.chip i {
+    font-size: 48px;
+    color: #fff;
+    rotate: 90deg;
+}
+
+.card-details {
+    position: relative;
+}
+
+.number {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    margin-left: 70px;
+}
+
+.creation-date {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.expiration-date {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.name-visa {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+h5 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.name-visa i {
+    position: absolute;
+    font-size: 96px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    top: 0;
+    right: 0;
+}
+

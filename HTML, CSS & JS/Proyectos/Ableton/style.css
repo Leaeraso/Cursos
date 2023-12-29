@@ -1,0 +1,405 @@
+* {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: gainsboro;
+    padding: 0px 60px;
+}
+
+.father {
+    background: #fff;
+    margin: 0 40px;
+    height: 100svh;
+}
+
+.header {
+    /* background: lightblue; */
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-bottom: 2px solid gainsboro;
+}
+
+.logo {
+    /* background: salmon; */
+    flex: 1 1 auto;
+    margin: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-img {
+    width: 200px;
+    height: 60px;
+}
+
+.options {
+    /* background: salmon; */
+    flex: 120 1 auto;
+    margin: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.options a {
+    margin: 0 15px;
+    color: black;
+    font-size: 20px;
+}
+
+.log-reg {
+    /* background: salmon; */
+    flex: 40 1 auto;
+    margin: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.log-reg a {
+    font-size: 20px;
+}
+
+.blue-a {
+    color: blue;
+}
+
+.black-a {
+    color: #000;
+}
+
+.option-bar {
+    /* background: lightblue; */
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.option-bar a {
+    margin:10px;
+    font-size: 15px
+}
+
+.orange-a {
+    color: #ff764d;
+}
+
+.black-a {
+    color: #000;
+}
+
+.section-1 {
+    background: #fff;
+    height: 1000px;
+    padding: 0 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: top;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.bg-container {
+    background: url(imagenes/img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+h1 {
+    color: #ff764d;
+    font-size: 150px;
+}
+
+.text {
+    background-color: #fff;
+    height: auto;
+    margin: 0 300px;
+    text-align: center;
+}
+
+.bg-text {
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+span {
+    color: blue;
+}
+
+.p-1 {
+    font-size: 16px;
+    font-weight: 50;
+}
+
+.section-2 {
+    background: #fff;
+    height: 800px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+.yellow-part {
+    background: #fbffa7;
+    width: 60%;
+    height: 100%;
+}
+
+.img-container-2 {
+    background: #fff;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+}
+
+.section-3 {
+    background: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.section-4 {
+    background: #fff;
+    height: 900px;
+    padding-bottom: 40px;
+}
+
+.video-container {
+    background: #fff;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+iframe {
+    height: 500px;
+    width: 900px;
+
+}
+
+.section-5 {
+    background: #fff;
+    height: 1000px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.green-part {
+    background: #b6ffc0;
+    height: 100%;
+    width: 60%;
+}
+
+.section-6 {
+    background: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 {
+    background: #fff;
+    height: 800px;
+}
+
+.section-8 {
+    background: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-9 {
+    background: #fff;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.violet-part {
+    background: #d5b3ff;
+    height: 100%;
+    width: 70%;
+}
+
+.section-10 {
+    background: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-11 {
+    background: #fff;
+    height: 800px;
+    border-bottom: 2px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.img-text-container {
+    background: #fff;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.img-9 {
+    background: url(imagenes/img-9.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+}
+
+.purple-part {
+    background: #b1c5ff;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    width: 75%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 250;
+}
+
+.section-11-a {
+    font-size: 20px;
+
+}
+
+.footer {
+    background: salmon;
+    height: 800px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.name {
+    background: #fff;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 160px;
+}
+
+.information {
+    background: #fff;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: row wrap;
+}
+
+.register-love-or-push {
+    background: lightblue;
+    flex: 1 1 auto;
+    margin: 10px;
+    width: 28%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.register-love-or-push a {
+    margin: 10px;
+    background: #fff;
+    color: #000;
+}
+
+.social-media {
+    background: #fff;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.education {
+    background: lightblue;
+    flex: 1 1 auto;
+    margin: 10px;
+    width: 28%;
+    height: 45%;
+}
+
+.sing-up {
+    background: lightblue;
+    flex: 3 1 auto;
+    margin: 10px;
+    width: 40%;
+    height: 45%;
+}
+
+.community {
+    background: lightblue;
+    flex: 1 1 auto;
+    margin: 10px;
+    width: 28%;
+    height: 45%;
+}
+
+.distributs {
+    background: lightblue;
+    flex: 1 1 auto;
+    margin: 10px;
+    width: 28%;
+    height: 45%;
+}
+
+.lenguage-and-location {
+    background: lightblue;
+    flex: 3 1 auto;
+    margin: 10px;
+    width: 40%;
+    height: 45%;
+}
+

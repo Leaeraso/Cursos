@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 80%;
+    height: 500px;
+    background: #ff5c29;
+    margin: 50px auto;
+    display: flex;
+    /* Especifica la direccion de los elementos hijos */
+    flex-direction: column;
+    /* sirve para saber si los hijos deben acomodarse en multiples lineas o no */
+    flex-wrap: wrap;
+    /* Con flex-flow se junta flex-direction y flex-wrap */
+    /* Nos permite posicionar nuestras cajas hijas */
+    justify-content: center;
+    /* Nos permite posicionar nuestras cajas hijas verticalmente*/
+    align-items: center;
+    /* Nos permite posicionar nuestras cajas hijas cuando hay 2 o mas lineas*/
+    /* align-content: center; */
+}
+
+.hijo {
+    background-color: #00b285;
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /* Sirve para controlar la capacidad de un elemento de crecer */
+    /* flex-grow: 1; */
+    /* Sirve para controlar como los elementos disminuyen */
+    /* flex-shrink: 0; */
+    /* Abarca tanto flex-grow y flex-shrink */
+    flex: 1 0 auto;
+    /* Sirve para darle prioridad ante otros elmentos */
+    order: 2;
+}
+
+.otro {
+    order: 1;
+    /* Sirve para posicionar un solo elemento */
+    align-self: center;
+}
